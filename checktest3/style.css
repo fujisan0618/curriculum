@@ -1,0 +1,48 @@
+.clearfix ::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+body {
+    width: 100%;
+}
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header {
+    height: 120px;
+}
+img {
+    width: 200px;
+    height: 120px;
+    background-color: #abb8e6;
+    float: left;
+}
+.name {
+    width: 800px;
+    height: 60px;
+    background-color: #87ceeb;
+    float: left;
+    text-align: right;
+}
+.time {
+    width: 800px;
+    height: 60px;
+    background-color: #00ffff;
+    float: left;
+    text-align: right;
+}
+table {
+    margin: 10px auto;
+}
+table th {
+    background-color: #87ceeb;
+}
+table td {
+    background-color: #e0ffff;
+}
+.footer {
+    height: 50px;
+    background-color: #00ced1;
+}
